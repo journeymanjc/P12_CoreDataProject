@@ -11,6 +11,10 @@
 		741E43E928499959007AB493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741E43E828499959007AB493 /* ContentView.swift */; };
 		741E43EB28499959007AB493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741E43EA28499959007AB493 /* Assets.xcassets */; };
 		741E43EE28499959007AB493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741E43ED28499959007AB493 /* Preview Assets.xcassets */; };
+		741E43F528499983007AB493 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741E43F428499983007AB493 /* DataController.swift */; };
+		741E43F828499A21007AB493 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 741E43F628499A21007AB493 /* CoreDataProject.xcdatamodeld */; };
+		74A0063B284AE47D00349EAA /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A00639284AE47D00349EAA /* Movie+CoreDataClass.swift */; };
+		74A0063C284AE47D00349EAA /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A0063A284AE47D00349EAA /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		741E43E828499959007AB493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		741E43EA28499959007AB493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741E43ED28499959007AB493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		741E43F428499983007AB493 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		741E43F728499A21007AB493 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		74A00639284AE47D00349EAA /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataClass.swift"; path = "P12_CoreDataProject/Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		74A0063A284AE47D00349EAA /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "P12_CoreDataProject/Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		741E43DA28499959007AB493 = {
 			isa = PBXGroup;
 			children = (
+				74A00639284AE47D00349EAA /* Movie+CoreDataClass.swift */,
+				74A0063A284AE47D00349EAA /* Movie+CoreDataProperties.swift */,
 				741E43E528499959007AB493 /* P12_CoreDataProject */,
 				741E43E428499959007AB493 /* Products */,
 			);
@@ -53,6 +63,8 @@
 			children = (
 				741E43E628499959007AB493 /* P12_CoreDataProjectApp.swift */,
 				741E43E828499959007AB493 /* ContentView.swift */,
+				741E43F428499983007AB493 /* DataController.swift */,
+				741E43F628499A21007AB493 /* CoreDataProject.xcdatamodeld */,
 				741E43EA28499959007AB493 /* Assets.xcassets */,
 				741E43EC28499959007AB493 /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				741E43E928499959007AB493 /* ContentView.swift in Sources */,
+				741E43F528499983007AB493 /* DataController.swift in Sources */,
+				741E43F828499A21007AB493 /* CoreDataProject.xcdatamodeld in Sources */,
+				74A0063B284AE47D00349EAA /* Movie+CoreDataClass.swift in Sources */,
+				74A0063C284AE47D00349EAA /* Movie+CoreDataProperties.swift in Sources */,
 				741E43E728499959007AB493 /* P12_CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		741E43F628499A21007AB493 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				741E43F728499A21007AB493 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 741E43F728499A21007AB493 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 741E43DB28499959007AB493 /* Project object */;
 }
